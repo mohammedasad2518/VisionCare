@@ -16,10 +16,7 @@ dist/
 *.egg-info/
 *.log
 
-# Model weights & large datasets
-models/*.h5
-models/*.keras
-backend/models/*.keras
+# Model weights tracked via Git LFS (*.keras in .gitattributes)
 dataset/
 training/dataset/
 training/data_splits/
