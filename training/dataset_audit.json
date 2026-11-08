@@ -1,0 +1,53 @@
+{
+  "categories": {
+    "Cataract": {
+      "folder": "cataract",
+      "count": 1038,
+      "valid": 1038,
+      "corrupted": 0
+    },
+    "Diabetic Retinopathy": {
+      "folder": "diabetic_retinopathy",
+      "count": 1098,
+      "valid": 1098,
+      "corrupted": 0
+    },
+    "Glaucoma": {
+      "folder": "glaucoma",
+      "count": 1007,
+      "valid": 1007,
+      "corrupted": 0
+    },
+    "Normal": {
+      "folder": "normal",
+      "count": 1074,
+      "valid": 1074,
+      "corrupted": 0
+    }
+  },
+  "total_images": 4217,
+  "valid_images": 4217,
+  "corrupted_images": 0,
+  "formats": {
+    "JPEG": 4016,
+    "PNG": 201
+  },
+  "dimension_stats": {
+    "min_width": 256,
+    "max_width": 2592,
+    "min_height": 256,
+    "max_height": 1728,
+    "dimensions_sample": []
+  },
+  "duplicates": [
+    {
+      "original": "cataract\\1415_right.jpg",
+      "duplicate": "glaucoma\\1415_right.jpg"
+    },
+    {
+      "original": "cataract\\625_left.jpg",
+      "duplicate": "glaucoma\\625_left.jpg"
+    }
+  ],
+  "duplicate_count": 2
+}

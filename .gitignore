@@ -1,0 +1,53 @@
+# Environments
+.env
+.env.local
+.venv/
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+*.log
+
+# Model weights & large datasets
+models/*.h5
+models/*.keras
+backend/models/*.keras
+dataset/
+training/dataset/
+training/data_splits/
+.matplotlib/
+*.zip
+*.tar.gz
+
+# Backend runtime files
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/reports/*
+!backend/reports/.gitkeep
+*.db
+*.sqlite3
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

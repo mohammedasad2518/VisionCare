@@ -1,0 +1,23 @@
+{
+  "train": {
+    "Diabetic Retinopathy": 768,
+    "Glaucoma": 703,
+    "Normal": 752,
+    "Cataract": 727,
+    "total": 2950
+  },
+  "val": {
+    "Cataract": 155,
+    "Normal": 161,
+    "Glaucoma": 151,
+    "Diabetic Retinopathy": 165,
+    "total": 632
+  },
+  "test": {
+    "Normal": 161,
+    "Diabetic Retinopathy": 165,
+    "Cataract": 156,
+    "Glaucoma": 151,
+    "total": 633
+  }
+}

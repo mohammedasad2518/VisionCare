@@ -1,0 +1,25 @@
+{
+  "model_architecture": "VGG19 with Custom Classification Head (GlobalAveragePooling2D + Dense(256) + Dropout(0.5) + Dense(4))",
+  "input_dimensions": [
+    224,
+    224,
+    3
+  ],
+  "class_mapping": {
+    "Cataract": 0,
+    "Diabetic Retinopathy": 1,
+    "Glaucoma": 2,
+    "Normal": 3
+  },
+  "preprocessing_method": "tf.keras.applications.vgg19.preprocess_input",
+  "dataset": "Kaggle Eye Diseases Classification Dataset (gunavenkatdoddi/eye-diseases-classification)",
+  "dataset_total_images": 4215,
+  "training_date": "2026-11-08T06:29:01.998586Z",
+  "test_metrics": {
+    "accuracy": 0.8926,
+    "precision": 0.8978,
+    "recall": 0.8926,
+    "f1_score": 0.8932
+  },
+  "model_version": "1.0.0"
+}
